@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.button {
+    @apply rounded-md font-normal px-4 py-2 text-base;
+}
+.primary-button {
+    @apply bg-green-800 hover:bg-green-700 text-white;
+}
+
+.secondary-button {
+    @apply bg-red-800 hover:bg-red-700 text-white;
+}
+
+.default-button {
+    @apply bg-gray-500 hover:bg-gray-400 text-white;
+}
+
+.input-field {
+    @apply border-solid rounded border-gray-200 border-2 p-2 w-full bg-gray-200;
+}
+
+.input-label {
+    @apply pl-1 block text-sm w-full mb-1;
+}
+
